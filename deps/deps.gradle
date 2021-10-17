@@ -4,6 +4,14 @@ ext {
     hilt = [
             android         : "com.google.dagger:hilt-android:$hilt_version",
             compiler        : "com.google.dagger:hilt-android-compiler:$hilt_version",
+//            hiltNavigation  : "androidx.hilt:hilt-navigation-fragment:1.0.0"
+
+    ]
+
+    def viewModelHiltVersion = "1.0.0-alpha02"
+    viewModelHilt = [
+            hiltLifecycleViewModel: "androidx.hilt:hilt-lifecycle-viewmodel:$viewModelHiltVersion",
+            hiltViewModelCompiler : "androidx.hilt:hilt-compiler:$viewModelHiltVersion"
     ]
 
     def nav_version = "2.3.0"
@@ -41,4 +49,6 @@ ext {
             okhttp            : "com.squareup.okhttp3:okhttp:$okHttp_version",
             logginginterceptor: "com.squareup.okhttp3:logging-interceptor:$okHttp_version"
     ]
+
+    vk = 'com.vk:androidsdk:2.2.0'
 }

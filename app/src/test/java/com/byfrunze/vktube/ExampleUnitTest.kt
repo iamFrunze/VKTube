@@ -1,4 +1,4 @@
-package com.alexgladkov.vktube
+package com.byfrunze.vktube
 
 import org.junit.Test
 
